@@ -1,0 +1,17 @@
+CREATE TABLE `bookings` (
+	`id` int AUTO_INCREMENT NOT NULL,
+	`name` varchar(255) NOT NULL,
+	`email` varchar(320) NOT NULL,
+	`phone` varchar(20) NOT NULL,
+	`eventType` varchar(100) NOT NULL,
+	`eventDate` varchar(20) NOT NULL,
+	`guestCount` int NOT NULL,
+	`venue` text NOT NULL,
+	`serviceType` varchar(255) NOT NULL,
+	`dietaryRequirements` text,
+	`additionalDetails` text,
+	`status` enum('new','contacted','confirmed','completed','cancelled') NOT NULL DEFAULT 'new',
+	`createdAt` timestamp NOT NULL DEFAULT (now()),
+	`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,
+	CONSTRAINT `bookings_id` PRIMARY KEY(`id`)
+);
