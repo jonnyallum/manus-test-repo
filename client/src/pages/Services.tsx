@@ -53,7 +53,7 @@ export default function Services() {
     {
       id: 'bar',
       title: 'Mobile Bar Hire',
-      image: 'https://i.ibb.co/yHxdjzb/Screenshot-20250804-211804-Instagram.jpg',
+      image: 'https://files.manuscdn.com/user_upload_by_module/session_file/117900797/CXkmBIocJqdbUFOm.jpg',
       description: 'A fully stocked mobile bar wherever you need it. From cocktails and craft beers to fizz and spirits, our bar team keep the drinks flowing and the atmosphere perfect.',
       benefits: [
         'Fully stocked selection',

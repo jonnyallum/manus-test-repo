@@ -14,7 +14,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold text-accent mb-4">Little Jonnys</h3>
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Award-winning catering across the South Coast. From wood-fired pizzas to legendary hog roasts, we deliver unforgettable events.
+              Catering that brings people together. From wood-fired pizzas to legendary hog roasts, we deliver unforgettable events across the South Coast.
             </p>
           </div>
 
