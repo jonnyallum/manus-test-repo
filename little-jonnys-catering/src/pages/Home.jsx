@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, Star, Users, Clock, Award, ChefHat, Truck, Wine, Utensils, CheckCircle, Phone, Mail } from 'lucide-react'
+import { ArrowRight, Star, Users, Clock, Shield, ChefHat, Truck, Wine, Utensils, CheckCircle, Phone, Mail, ThumbsUp } from 'lucide-react'
 
 const Home = () => {
   const stats = [
     { icon: Users, number: '500+', label: 'Events Catered', color: 'text-blue-600' },
     { icon: Clock, number: '10+', label: 'Years Experience', color: 'text-green-600' },
     { icon: Star, number: '5.0', label: 'Average Rating', color: 'text-yellow-500' },
-    { icon: Award, number: '100%', label: 'Satisfaction Rate', color: 'text-purple-600' }
+    { icon: Shield, number: '100%', label: 'Satisfaction Rate', color: 'text-purple-600' }
   ]
 
   const services = [
@@ -253,7 +253,7 @@ const Home = () => {
 
             <div className="text-center group">
               <div className="bg-gradient-to-br from-purple-500 to-purple-600 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
-                <Award className="h-10 w-10 text-white" />
+                <ThumbsUp className="h-10 w-10 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Quality Guaranteed</h3>
               <p className="text-gray-600 leading-relaxed">

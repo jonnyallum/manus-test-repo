@@ -2,7 +2,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Link } from 'react-router-dom'
-import { Award, Users, Clock, Shield, Heart, Star, CheckCircle, MapPin } from 'lucide-react'
+import { Users, Clock, Shield, Heart, Star, CheckCircle, MapPin } from 'lucide-react'
 
 const About = () => {
   const values = [
