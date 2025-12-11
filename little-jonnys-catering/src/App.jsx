@@ -6,6 +6,7 @@ import Booking from './pages/Booking'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Privacy from './pages/Privacy'
+import Packages from './pages/Packages'
 import PaymentSuccess from './pages/PaymentSuccess'
 import PaymentCancelled from './pages/PaymentCancelled'
 import Footer from './components/Footer'
@@ -22,6 +23,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/booking" element={<Booking />} />
           <Route path="/about" element={<About />} />
+          <Route path="/packages" element={<Packages />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/payment-success" element={<PaymentSuccess />} />
