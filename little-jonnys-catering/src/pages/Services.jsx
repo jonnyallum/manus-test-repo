@@ -89,9 +89,9 @@ const Services = () => {
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-r from-orange-600 to-orange-700 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Our Catering Services</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">Little Jonny's Catering Services</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-            Professional catering services for weddings, corporate events, parties, and celebrations 
+            Little Jonny's Catering provides professional catering services for weddings, corporate events, parties, and celebrations 
             across Portsmouth, Hampshire, and Sussex
           </p>
           <Button asChild size="lg" variant="outline" className="text-orange-600 bg-white hover:bg-gray-100">

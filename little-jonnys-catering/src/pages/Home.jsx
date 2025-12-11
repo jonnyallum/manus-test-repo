@@ -100,7 +100,7 @@ const Home = () => {
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">
-              Professional catering services with over 10 years of experience serving 
+              Little Jonny's Catering provides professional catering services with over 10 years of experience serving 
               <span className="text-orange-300 font-semibold"> Portsmouth, Hampshire & Sussex</span>
             </p>
 
@@ -169,7 +169,7 @@ const Home = () => {
               Our Catering Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              From intimate gatherings to large celebrations, we provide exceptional catering services 
+              From intimate gatherings to large celebrations, Little Jonny's Catering provides exceptional catering services 
               tailored to your needs with professional equipment and experienced staff.
             </p>
           </div>
@@ -223,7 +223,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Why Choose Little Jonny's?
+              Why Choose Little Jonny's Catering?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Professional, reliable, and delicious catering services that make your event unforgettable

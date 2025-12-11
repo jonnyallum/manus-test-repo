@@ -62,10 +62,10 @@ const Navigation = () => {
               </div>
               <div>
                 <div className="text-2xl font-bold bg-gradient-to-r from-orange-600 to-orange-700 bg-clip-text text-transparent">
-                  Little Jonny's
+                  Little Jonny's Catering
                 </div>
                 <div className="text-sm text-gray-600 font-medium -mt-1">
-                  Catering Services
+                  Portsmouth's Premier Caterers
                 </div>
               </div>
             </Link>

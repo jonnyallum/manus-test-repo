@@ -1,0 +1,7 @@
+# robots.txt for Little Jonny's Catering
+User-agent: *
+Allow: /
+Sitemap: https://littlejonnys.co.uk/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
