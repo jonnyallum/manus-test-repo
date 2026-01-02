@@ -1,5 +1,6 @@
 import "dotenv/config";
 import express from "express";
+import cors from "cors";
 import { createServer } from "http";
 import net from "net";
 import { createExpressMiddleware } from "@trpc/server/adapters/express";
@@ -34,6 +35,9 @@ async function startServer() {
   // Configure body parser with larger size limit for file uploads
   app.use(express.json({ limit: "50mb" }));
   app.use(express.urlencoded({ limit: "50mb", extended: true }));
+
+    // CORS - allow requests from littlejonnys.co.uk
+    app.use(cors({ origin: ['https://littlejonnys.co.uk', 'https://www.littlejonnys.co.uk', 'http://localhost:3000'], credentials: true }));
   
   // Stripe webhook - must be before express.json() for signature verification
   app.post('/api/stripe/webhook', express.raw({ type: 'application/json' }), handleStripeWebhook);
